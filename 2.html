@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Професійна Підготовка</title>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+
+
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 25px;
+        }
+
+        h1 {
+            color: #007BFF;
+            text-align: center;
+        }
+
+        p {
+            font-size: 25px;
+            text-align: justify;
+            margin-bottom: 25px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 10px solid #ddd;
+        }
+
+        th {
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .animated-text {
+            animation: colorChange 3s infinite;
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: #007BFF;
+            }
+            50% {
+                color: #28a745;
+            }
+            100% {
+                color: #007BFF;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Мій Обраний Фах</h1>
+    <main>
+         <div class="image-container">
+        
+        <a href="https://www.bsmu.edu.ua/blog/6761-stomatologiya-yak-nauka/" target="_blank">  <img src="D:\css\5594018.png" width="200" height="150"  alt="Зображення фаху">  </a> 
+    </div>
+        
+    </main>
+
+    
+
+    <h2>Час, виділений для підготовки для вступу на тиждень</h2>
+
+    
+    <table>
+        <tr>
+            <th>Номер</th>
+            <th>Назва предмету на НМТ</th>
+            <th>Кількість годин</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Математика </td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Хімія</td>
+            <td>12.5</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Біологія </td>
+            <td>20</td>
+        </tr>
+    </table>
+
+    <p>Додаткова інформація про професію доступна на <a href="https://www.bsmu.edu.ua/blog/6761-stomatologiya-yak-nauka/" target="_blank">цій сторінці</a>.</p>
+
+    
+    <p class="animated-text">Цей рядок тексту рухається!</p>
+    
+    <script type="text/javascript">
+        function askName() {
+        let name;
+        do {
+            name = prompt('Введіть своє ім\'я');
+            if (name === null || name === '') {
+                alert("Будь ласка, введіть своє ім'я для продовження.");
+            }
+        } while (name === null || name === '');
+
+        alert("Вітаю, " + name + ", на моїй сторінці!");
+        }
+
+        window.onload = askName;
+    </script>
+</body>
+</html>
